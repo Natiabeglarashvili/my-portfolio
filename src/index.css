@@ -1,0 +1,44 @@
+
+
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: black;
+}
+
+h1, h4, p,
+a{
+  color: beige;
+  text-decoration: none;
+}
+
+ul{
+  list-style-type: none ;
+}
+
+.btn{
+  padding: 12px 32px;
+  font-size: 1rem;
+  text-transform: uppercase;
+  background: rgb(8, 248, 44);
+  color: black;
+  border: 1px solid whitesmoke;
+  font-weight: 600px;
+  cursor: pointer;
+}
+
+.btn-light{
+  /*bacrground:  rgba (255, 255, 255, 0.2); */
+  background: transparent;
+  color: wheat;
+}
+
+.btn:hover {
+  background: rgb(121, 118, 118);
+  color: antiquewhite;
+  transition: 0.3s;
+}
